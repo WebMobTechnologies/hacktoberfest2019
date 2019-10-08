@@ -7,6 +7,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#112148), to(#351B55));
+  background-image: linear-gradient(to bottom right, #112148, #351B55);
+  min-height: 100vh;
+  color: #99A1B3;
+  line-height: 2;
 }
 article,
 aside,
@@ -61,8 +66,11 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
+  font-size: 1.65em;
+  text-align: center;
+  color: #fff;
+  margin: 0.75rem 0;
 }
 mark {
   background-color: #ff0;
