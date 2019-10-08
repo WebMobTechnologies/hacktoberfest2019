@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -12,6 +14,7 @@ body {
   min-height: 100vh;
   color: #99A1B3;
   line-height: 2;
+  font-family: 'Space Mono', monospace;
 }
 article,
 aside,
@@ -627,4 +630,39 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.main-title{
+  font-size: 2rem;
+    line-height: 60px;
+    padding-left: 0;
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+
+.line-br span {
+  background-color: #fff922;
+}
+
+.line-br {
+  color: #fff922;
+  line-height: 0.4rem;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.line-br-1 {
+  width: 40px;
+  height: 6px;
+  position: absolute;
+}
+
+.line-br-2{
+  width: 10px;
+    height: 6px;
+    position: absolute;
+    left: 50px;
+}
+.is-spaced {
+  padding-top: 40px;
 }
