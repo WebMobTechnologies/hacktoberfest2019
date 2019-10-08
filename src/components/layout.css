@@ -666,3 +666,19 @@ pre tt:after {
 .is-spaced {
   padding-top: 40px;
 }
+
+.register-btn{
+  background-color: #a11ec6;
+  border-color: #a11ec6;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: 1.125em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1.125em;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+}
