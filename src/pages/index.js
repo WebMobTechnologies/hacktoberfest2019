@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Image from '../components/image';
 import { Container, Row, Col } from 'react-grid-system';
+import SEO from "../components/SEO"
 
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Home" />
+        <SEO title="Hacktoberfest Open Hack Day - WebMob Technologies" />
         <Container>
             <Row style={{
                 display: "flex",
