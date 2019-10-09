@@ -25,6 +25,20 @@ html {
   margin-top: 3rem
 }
 
+a {
+  color: #92eaff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff00aa;
+}
+
+strong {
+  color: #fff;
+}
+
 .social {
   font-family: 'Space Mono Bold', monospace;
   font-weight: bold;
