@@ -19,7 +19,7 @@ class Layout extends React.Component {
         toSlider.classList.add(`main-img${next(dset)}`)
         toSlider.setAttribute('data-set', next(dset))
       
-    }, 3000)
+    }, 5000)
   }
 
   render() {

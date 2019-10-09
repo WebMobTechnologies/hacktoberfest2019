@@ -21,7 +21,7 @@ const IndexPage = () => (
           height: "60vh",
         }}
       >
-        <Col sm={6}>
+        <Col sm={6} className="text-center full-width">
           <div
             style={{
               display: "",
@@ -34,7 +34,7 @@ const IndexPage = () => (
               Hacktoberfest 2019{" "}
               <span style={{ color: "#fff922" }}>@webmobtech</span>!
             </h1>
-            <a className="register-btn" href="#">
+            <a className="register-btn button" href="#">
               Register
             </a>
           </div>
@@ -44,7 +44,7 @@ const IndexPage = () => (
       </Row>
 
       <Row>
-        <Col sm={12} className="mt-5">
+        <Col sm={12} className="mt-5 event-detail">
           <EventDetail />
         </Col>
         <Col sm={12} className="mt-5">

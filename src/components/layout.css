@@ -939,14 +939,40 @@ header{
   margin-bottom: 50px;
   line-height: 60px;
 }
+.button:hover {
+  background-color: #92eaff;
+  color: #39486f;
+}
 
-
-@media screen and (max-width: 500px){
+.overflow-break{
+  overflow-wrap: break-word;
+}
+@media screen and (max-width: 767px){
   main.sliderimg {
-    background-position: top 430px right 64px, top 340px right 0px;
+    background-position: top 430px right 64px, top 340px right 0px!important;
     background-size: 100%;
   }
   .section2.space{
     margin-top: 30rem;
+  }
+  .title.register{
+    text-align: center;
+  }  
+}
+@media screen and (max-width: 1023px){
+  main.sliderimg {
+    background-position: top 310px right 151px, top 200px right 0px;
+  }
+  .title.register{
+    text-align: center;
+  }
+  .full-width{
+    max-width: 100%!important;
+  }
+  .event-detail{
+    margin-top: 24rem;
+  }
+  .text-center{
+    text-align: center;
   }
 }
