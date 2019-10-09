@@ -25,6 +25,87 @@ html {
   margin-top: 3rem
 }
 
+.social {
+  font-family: 'Space Mono Bold', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 16px;
+  border: none;
+  width: 170px;
+  height: 150px;
+  background: #a31ec8;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 30px;
+  text-align: left;
+  vertical-align: top;
+  padding: 30px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .social-link {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social {
+    margin-bottom: 40px;
+  }
+}
+
+.social:hover {
+  background-color: #94eaff;
+  color: #39486f;
+}
+
+.social span {
+  position: relative;
+  top: 28px;
+}
+
+.social svg {
+  height: 37px;
+}
+
+.social:hover svg path {
+  fill: #39486f;
+}
+
+.grow-shadow {
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.grow-shadow:hover::after {
+  opacity: 1;
+}
+
+.grow-shadow::after {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.grow-shadow:hover {
+  -webkit-transform: scale(1.04, 1.04);
+  transform: scale(1.04, 1.04);
+}
+
 .spread {
   background-image: url(/images/bg2.png), url(/images/bg1.png);
   background-position: bottom left, top right;
