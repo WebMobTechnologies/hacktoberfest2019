@@ -899,3 +899,54 @@ pre tt:after {
   white-space: nowrap;
   text-decoration: none;
 }
+
+/* header slider section */
+main.sliderimg{
+  
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: top 10px right 164px, top -122px right 0px;
+  opacity: 1;
+  transition: background-image 1.5s linear;
+}
+
+.main-img0 {
+  background-image: url(/images/2.png), url(/images/1.png);
+}
+.main-img1 {
+  background-image: url(/images/4.png), url(/images/3.png);
+}
+.main-img2 {
+  background-image: url(/images/6.png), url(/images/5.png);
+}
+.section2.space p{  
+  margin: 20px 0 60px 0;
+  max-width: 620px;
+}
+.top-bg::after{
+  content: url(/images/bg-right.png);
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: -1;
+}
+header{
+  margin: 30px 135px 100px 135px;
+  min-height: 160px;
+}
+.title.register{
+  text-align: left;
+  margin-bottom: 50px;
+  line-height: 60px;
+}
+
+
+@media screen and (max-width: 500px){
+  main.sliderimg {
+    background-position: top 430px right 64px, top 340px right 0px;
+    background-size: 100%;
+  }
+  .section2.space{
+    margin-top: 30rem;
+  }
+}

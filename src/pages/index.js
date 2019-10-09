@@ -15,22 +15,22 @@ const IndexPage = () => (
     <Container>
       <Row
         style={{
-          display: "flex",
+          display: "",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+          height: "60vh",
         }}
       >
         <Col sm={6}>
           <div
             style={{
-              display: "flex",
+              display: "",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <h1 className="title">
+            <h1 className="title register">
               Hacktoberfest 2019{" "}
               <span style={{ color: "#fff922" }}>@webmobtech</span>!
             </h1>
@@ -40,7 +40,6 @@ const IndexPage = () => (
           </div>
         </Col>
         <Col sm={6}>
-          <Image />
         </Col>
       </Row>
 
