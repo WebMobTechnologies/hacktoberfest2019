@@ -12,7 +12,10 @@ const Image = () => {
     }
   `)
 
-  return <img src={data.placeholderImage.publicURL} alt="hacktoberfest2019" />
+  return <img src={data.placeholderImage.publicURL} style={{
+    willChange: 'transform',
+    transform: 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)'
+  }} />
 }
 
 export default Image
