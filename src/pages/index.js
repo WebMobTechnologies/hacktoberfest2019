@@ -8,6 +8,9 @@ import CodeOfConduct from "../components/CodeOfConduct"
 import HacktoberFest from "../components/HacktoberFest"
 import RulePrize from "../components/RulePrize"
 import EventDetail from "../components/EventDetail"
+import Devlogo from '../../static/images/dev-logo.svg'
+import Dologo from '../../static/images/do-logo.svg'
+
 
 const IndexPage = () => (
   <Layout>
@@ -44,13 +47,13 @@ const IndexPage = () => (
       </Row>
 
       <Row>
-        <Col sm={12} className="mt-5 event-detail">
+        <Col sm={12} className="mt-5 event-detail" id="detail">
           <EventDetail />
         </Col>
         <Col sm={12} className="mt-5">
           <HacktoberFest />
         </Col>
-        <Col sm={12} className="mt-5">
+        <Col sm={12} className="mt-5" id="rules">
           <RulePrize />
         </Col>
         <Col sm={12} className="mt-5">
@@ -115,6 +118,15 @@ const IndexPage = () => (
           <Row></Row>
         </Container>
       </div>
+    </div>
+    {/* footer */}
+    <div class="footer-end">
+      <div class="footer-logos">
+      <a href="https://www.digitalocean.com"><img src={Dologo} alt="DigitalOcean Logo" /></a>
+      <p> + </p>
+      <a href="https://www.dev.to"><img class="dev-logo" src={Devlogo} alt="Dev Logo" /></a>
+      </div>
+      <p>© 2019 DigitalOcean, LLC. All rights reserved.</p>
     </div>
   </Layout>
 )
