@@ -30,6 +30,8 @@ class Layout extends React.Component {
           cookieName="hacktoberfest_wmt"
           containerClasses="cookie-content"
           buttonClasses="cookie-btn"
+          acceptOnScroll={true}
+          acceptOnScrollPercentage={50}
         >
           We use cookies to provide enhance the user experience. By continuing
           to browse our website, you agree to our use of&nbsp;cookies.

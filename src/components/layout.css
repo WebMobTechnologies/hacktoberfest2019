@@ -14,15 +14,16 @@ html {
 
 .cookie-content {
   background-color: rgb(3, 27, 78) !important;
-  transition: opacity 1s ease-in-out;
-  padding: 5px 10%;
-  font-size: 14px;
+  transition: opacity 1s ease-in-out !important;
+  padding: 20px 10% !important;
+  font-size: 14px !important;
 }
 
 .cookie-btn {
   background: #0069ff !important;
   font-size: 14px !important;
-  border-radius: 5 !important;
+  border-radius: 5px !important;
+  outline: none;
   color: #fff !important;
   cursor: pointer;
   padding: 16px 32px 15px !important;
@@ -86,6 +87,10 @@ strong {
     flex-direction: column;
   }
 
+  .cookie-content {
+    font-size: 16px;
+    padding: 10px 10%;
+  }
   .cookie-btn {
     width: 100%;
   }
