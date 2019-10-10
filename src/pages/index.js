@@ -15,37 +15,36 @@ const IndexPage = () => (
     <Container>
       <Row
         style={{
-          display: "flex",
+          display: "",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+          height: "60vh",
         }}
       >
-        <Col sm={6}>
+        <Col sm={6} className="text-center full-width">
           <div
             style={{
-              display: "flex",
+              display: "",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <h1 className="title">
+            <h1 className="title register">
               Hacktoberfest 2019{" "}
               <span style={{ color: "#fff922" }}>@webmobtech</span>!
             </h1>
-            <a className="register-btn" href="#">
+            <a className="register-btn button" href="#">
               Register
             </a>
           </div>
         </Col>
         <Col sm={6}>
-          <Image />
         </Col>
       </Row>
 
       <Row>
-        <Col sm={12} className="mt-5">
+        <Col sm={12} className="mt-5 event-detail">
           <EventDetail />
         </Col>
         <Col sm={12} className="mt-5">

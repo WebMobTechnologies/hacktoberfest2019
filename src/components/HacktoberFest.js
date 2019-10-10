@@ -29,7 +29,7 @@ const HacktoberFest = () => (
     <p className="p">
       Can't make it to this event? Hacktoberfest is virtual and open to
       participants from around the globe. Sign up to participate today at{" "}
-      <a href="https://hacktoberfest.digitalocean.com" target="_blank">
+      <a href="https://hacktoberfest.digitalocean.com" target="_blank" className="overflow-break">
         https://hacktoberfest.digitalocean.com
       </a>
       .
