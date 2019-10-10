@@ -561,6 +561,10 @@ dd {
   margin-left: 20px;
 }
 
+.color-yellow{
+  color: #fff922
+}
+
 .p {
   font-size: 1.125rem;
   line-height: 1.5;
@@ -974,5 +978,9 @@ header{
   }
   .text-center{
     text-align: center;
+  }
+
+  .mt-15{
+    margin-top: 15px
   }
 }

@@ -7,7 +7,7 @@ const CodeOfConduct = () => (
     <h2 className="title is-2 is-spaced">Events code of conduct</h2>
     <p className="p">
       Please read our{" "}
-      <a href="https://do.co/hacktoberconduct" target="_blank">
+      <a href="https://do.co/hacktoberconduct" target="_blank" rel="noopener noreferrer">
         Events Code of Conduct
       </a>{" "}
       before attending. Happy Hacking!
