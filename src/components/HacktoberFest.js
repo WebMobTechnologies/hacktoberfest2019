@@ -6,11 +6,11 @@ const HacktoberFest = () => (
     <Line />
     <h2 className="title is-2 is-spaced">What's Hacktoberfest?</h2>
     <p className="p">
-      <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+      <a href="https://hacktoberfest.digitalocean.com/" target="_blank" rel="noopener noreferrer">
         Hacktoberfest — brought to you by DigitalOcean
       </a>{" "}
       in partnership with{" "}
-      <a href="https://dev.to/" target="_blank">
+      <a href="https://dev.to/" target="_blank" rel="noopener noreferrer">
         DEV
       </a>{" "}
       — is a month-long celebration of open source software. Maintainers are
@@ -29,7 +29,7 @@ const HacktoberFest = () => (
     <p className="p">
       Can't make it to this event? Hacktoberfest is virtual and open to
       participants from around the globe. Sign up to participate today at{" "}
-      <a href="https://hacktoberfest.digitalocean.com" target="_blank">
+      <a href="https://hacktoberfest.digitalocean.com" target="_blank" rel="noopener noreferrer" className="overflow-break">
         https://hacktoberfest.digitalocean.com
       </a>
       .

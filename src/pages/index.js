@@ -8,6 +8,12 @@ import CodeOfConduct from "../components/CodeOfConduct"
 import HacktoberFest from "../components/HacktoberFest"
 import RulePrize from "../components/RulePrize"
 import EventDetail from "../components/EventDetail"
+import EventMap from "../components/EventMap"
+import WMTLogo from "../components/WMTLogo"
+
+const redirectMap = () => {
+  window.open('https://goo.gl/maps/3pV3bHpLV8owx4ER8');
+}
 
 const IndexPage = () => (
   <Layout>
@@ -15,37 +21,36 @@ const IndexPage = () => (
     <Container>
       <Row
         style={{
-          display: "flex",
+          display: "",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+          height: "60vh",
         }}
       >
-        <Col sm={6}>
+        <Col sm={6} className="text-center full-width">
           <div
             style={{
-              display: "flex",
+              display: "",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <h1 className="title">
+            <h1 className="title register">
               Hacktoberfest 2019{" "}
               <span style={{ color: "#fff922" }}>@webmobtech</span>!
             </h1>
-            <a className="register-btn" href="#">
+            <button className="register-btn button">
               Register
-            </a>
+            </button>
           </div>
         </Col>
         <Col sm={6}>
-          <Image />
         </Col>
       </Row>
 
       <Row>
-        <Col sm={12} className="mt-5">
+        <Col sm={12} className="mt-5 event-detail">
           <EventDetail />
         </Col>
         <Col sm={12} className="mt-5">
@@ -60,6 +65,30 @@ const IndexPage = () => (
       </Row>
     </Container>
 
+
+    <div className="mt-5" style={{ overflow: 'hidden' }}>
+      <div style={{ paddingTop: "10rem" }}>
+        <Row style={{ alignItems: "center", backgroundColor: '#152347' }}>
+          <Col sm={12} md={6}>
+            <EventMap />
+          </Col>
+          <Col sm={12} md={6}>
+            <div className="wmt_white_logo">
+              <WMTLogo />
+              <div className="text-center mt-15">
+                <h4>202, Kalasagar Shopping Hub, Sattadhar Cross Rd, Ghatlodiya, Ahmedabad, Gujarat 380061</h4>
+                <div style={{ marginTop: 30 }}>
+                  <button className="register-btn button" onClick={redirectMap}>
+                    Directions
+              </button>
+                </div>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </div>
+    </div>
+
     <div className="mt-5 spread">
       <div style={{ paddingTop: "10rem" }}>
         <Container>
@@ -70,7 +99,7 @@ const IndexPage = () => (
 
               <div className="social-link">
                 <a
-                  class="grow-shadow social"
+                  className="grow-shadow social"
                   href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.webmobtech.com"
                 >
                   <svg
@@ -89,7 +118,7 @@ const IndexPage = () => (
                   <span>Facebook</span>
                 </a>
 
-                <a class="grow-shadow social" href="https://ctt.ac/4xLO9">
+                <a className="grow-shadow social" href="https://ctt.ac/4xLO9">
                   <svg
                     width="36"
                     height="31"
@@ -113,7 +142,6 @@ const IndexPage = () => (
               </div>
             </Col>
           </Row>
-          <Row></Row>
         </Container>
       </div>
     </div>
