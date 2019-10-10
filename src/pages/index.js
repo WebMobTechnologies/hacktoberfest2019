@@ -114,7 +114,6 @@ const IndexPage = () => (
                       fill="white"
                     ></path>
                   </svg>
-
                   <span>Facebook</span>
                 </a>
 
