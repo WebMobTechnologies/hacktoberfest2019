@@ -26,8 +26,8 @@ class EventMap extends Component {
             mapMarker: false,
             mapState: 'india',
             mapCenter: {
-                lat: 23.0661349,
-                lng: 72.529525,
+                lat: 23.066370,
+                lng: 72.531700,
             },
         };
     }
@@ -39,7 +39,7 @@ class EventMap extends Component {
             // Important! Always set the container height explicitly
             <div style={{ height: '60vh', width: '100%' }}>
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: 'AIzaSyCDfeCfbqNuivaaVTXCdznoL-eOINcPuF4' }}
+                    bootstrapURLKeys={{ key: 'AIzaSyBI6bQXwNHT0nmQyhdqHFM4s42wInRjKKc' }}
 
                     defaultCenter={mapCenter}
                     defaultZoom={zoom}

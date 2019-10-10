@@ -6,12 +6,12 @@ const Header = ({ siteTitle }) =>
 <header>
   <nav class="navbar" id="navbar">
   <a href="/"><img id="header-logo" src={Logo} alt="Hacktoberfest Logo" width="475" /></a>
-  <ul class="navbar-end">
+  {/* <ul class="navbar-end">
     <li><a class="active navLink" href="/">home</a></li>
     <li><a class="navLink" href="#detail">details</a></li>
     <li><a class="navLink" href="#schedule">schedule</a></li>
     <li><a class="navLink" href="#rules">rules</a></li>
-  </ul>
+  </ul> */}
   </nav>
 </header>
 
