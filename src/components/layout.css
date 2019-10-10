@@ -563,6 +563,10 @@ dd {
   margin-left: 20px;
 }
 
+.color-yellow{
+  color: #fff922
+}
+
 .p {
   font-size: 1.125rem;
   line-height: 1.5;
@@ -1044,3 +1048,28 @@ header .navbar-end{
 .footer-logos img{
   margin-bottom: 0px;
 }
+
+  .mt-15{
+    margin-top: 15px
+  }
+  .resp_logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
+.wmt_white_logo{
+  padding-left: 60px;
+}
+@media screen and (max-width: 1023px) {
+  .wmt_white_logo{
+    padding-left: 0; 
+  }
+ }
