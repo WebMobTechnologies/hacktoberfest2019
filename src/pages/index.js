@@ -9,9 +9,10 @@ import HacktoberFest from "../components/HacktoberFest"
 import RulePrize from "../components/RulePrize"
 import EventDetail from "../components/EventDetail"
 import EventMap from "../components/EventMap"
+import WMTLogo from "../components/WMTLogo"
 
 const redirectMap = () => {
-  window.open('https://www.google.com/maps/@' + 23.066791 + ',' + 72.531977 + ',16z');
+  window.open('https://goo.gl/maps/3pV3bHpLV8owx4ER8');
 }
 
 const IndexPage = () => (
@@ -65,20 +66,22 @@ const IndexPage = () => (
     </Container>
 
 
-    <div className="mt-5">
+    <div className="mt-5" style={{ overflow: 'hidden' }}>
       <div style={{ paddingTop: "10rem" }}>
         <Row style={{ alignItems: "center", backgroundColor: '#152347' }}>
           <Col sm={12} md={6}>
             <EventMap />
           </Col>
           <Col sm={12} md={6}>
-            <div className="text-center mt-15">
-              <h2 className="color-yellow">WebMob Technologies</h2>
-              <h4>202, Kalasagar Shopping Hub, Sattadhar Cross Rd, Ghatlodiya, Ahmedabad, Gujarat 380061</h4>
-              <div style={{ marginTop: 30 }}>
-                <button className="register-btn button" onClick={redirectMap}>
-                  Directions
+            <div className="wmt_white_logo">
+              <WMTLogo />
+              <div className="text-center mt-15">
+                <h4>202, Kalasagar Shopping Hub, Sattadhar Cross Rd, Ghatlodiya, Ahmedabad, Gujarat 380061</h4>
+                <div style={{ marginTop: 30 }}>
+                  <button className="register-btn button" onClick={redirectMap}>
+                    Directions
               </button>
+                </div>
               </div>
             </div>
           </Col>

@@ -983,4 +983,24 @@ header{
   .mt-15{
     margin-top: 15px
   }
+  .resp_logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
+.wmt_white_logo{
+  padding-left: 60px;
+}
+@media screen and (max-width: 1023px) {
+  .wmt_white_logo{
+    padding-left: 0; 
+  }
+ }
