@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap");
 
 html {
   background-color: #152347;
@@ -9,7 +9,25 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
   text-rendering: optimizeLegibility;
-  text-size-adjust: 100%
+  text-size-adjust: 100%;
+}
+
+.cookie-content {
+  background-color: rgb(3, 27, 78) !important;
+  transition: opacity 1s ease-in-out;
+  padding: 5px 10%;
+  font-size: 14px;
+}
+
+.cookie-btn {
+  background: #0069ff !important;
+  font-size: 14px !important;
+  border-radius: 5 !important;
+  color: #fff !important;
+  cursor: pointer;
+  padding: 16px 32px 15px !important;
+  text-align: "center" !important;
+  margin: 0 !important;
 }
 
 .title.is-1,
@@ -22,7 +40,7 @@ html {
 }
 
 .mt-5 {
-  margin-top: 3rem
+  margin-top: 3rem;
 }
 
 a {
@@ -40,7 +58,7 @@ strong {
 }
 
 .social {
-  font-family: 'Space Mono Bold', monospace;
+  font-family: "Space Mono Bold", monospace;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -68,6 +86,9 @@ strong {
     flex-direction: column;
   }
 
+  .cookie-btn {
+    width: 100%;
+  }
   .social {
     margin-bottom: 40px;
   }
@@ -125,7 +146,6 @@ strong {
   background-position: bottom left, top right;
   background-repeat: no-repeat;
   min-height: 1040px;
-
 }
 
 body,
@@ -133,7 +153,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Space Mono", monospace
+  font-family: "Space Mono", monospace;
 }
 
 body {
@@ -379,8 +399,6 @@ html {
   box-sizing: inherit;
 }
 
-
-
 img {
   max-width: 100%;
   margin-left: 0;
@@ -507,7 +525,6 @@ hgroup {
 }
 
 ul {
-
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -723,13 +740,13 @@ ul li {
   padding-left: 0;
 }
 
-li>ol {
+li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
 
-li>ul {
+li > ul {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
@@ -747,7 +764,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 
-li>p {
+li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 
@@ -847,13 +864,11 @@ pre tt:after {
   }
 }
 
-
-
 .title {
   color: white;
   font-size: 2.25rem;
   font-weight: 600;
-  line-height: 1.125
+  line-height: 1.125;
 }
 
 .line-br span {
