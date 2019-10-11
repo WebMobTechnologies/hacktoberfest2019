@@ -52,7 +52,7 @@ const agenda = [
   },
   {
     time: "2:30 PM - 3:00 PM",
-    desc: "Tea time ( team pairing & arrangent ) ☕",
+    desc: "Tea time ( team pairing & arrangement ) ☕",
     type: "break",
   },
   {
