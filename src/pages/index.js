@@ -13,6 +13,7 @@ import Dologo from "../../static/images/do-logo.svg"
 import EventMap from "../components/EventMap"
 import WMTLogo from "../components/WMTLogo"
 import ScheduleEvent from "../components/ScheduleEvent"
+import Contributors from "../components/Contributors"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faLinkedin,
@@ -79,6 +80,9 @@ const IndexPage = () => (
         </Col>
         <Col sm={12} className="mt-5">
           <CodeOfConduct />
+        </Col>
+        <Col sm={12} className="mt-5">
+          <Contributors />
         </Col>
       </Row>
     </Container>
