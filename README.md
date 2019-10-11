@@ -27,7 +27,7 @@ The event will feature lectures and workshops focused on enabling participants t
 | 1:00 PM - 1:30 PM   | Cloud computing? Computers can fly now? ☁️     |
 | 1:30 PM - 2:00 PM   | Guess who? 🤔💭                                |
 | 2:00 PM - 2:30 PM   | Show me what you got 🙈                        |
-| 2:30 PM - 3:00 PM   | Tea time ( team pairing & arrangent ) ☕        |
+| 2:30 PM - 3:00 PM   | Tea time ( team pairing & arrangement ) ☕        |
 | 3:00 PM - 4:30 PM   | It's a show time 🕒                            |
 | 4:30 PM - 6:00 PM   | I said play! 🎮                                |
 | 6:00 PM - 6:15 PM   | Award - Swag distribution and Photo session 📷 |

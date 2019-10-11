@@ -23,7 +23,9 @@
     "react-cookie-consent": "^2.5.0",
     "react-dom": "^16.10.2",
     "react-grid-system": "^5.0.2",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
