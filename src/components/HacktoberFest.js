@@ -21,7 +21,7 @@ const HacktoberFest = () => (
       ways of participating.
     </p>
     <p className="p">
-      This year, <a href="https://webmobtech.com">WebMob Technologies</a> will
+      This year, <a href="https://webmobtech.com" target="_blank" rel="noopener noreferrer">WebMob Technologies</a> will
       hold the second official Hacktoberfest event in Ahmedabad.{" "}
       <strong>The event takes place on October 16.</strong>
     </p>
