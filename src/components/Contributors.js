@@ -16,7 +16,7 @@ const Contributors = () => (
     <h2 className="title is-2 is-spaced">Contributors</h2>
     <Row>
         <Col xs={12} md={6} lg={4}>
-            <div className="box-projects grow-shadow">
+            <div className="box-projects">
                 <div className="img-desc">
                     <img src={test} alt="test" />   
                 </div>
@@ -33,7 +33,7 @@ const Contributors = () => (
             </div>
         </Col>
         <Col xs={12} md={6} lg={4}>
-            <div className="box-projects grow-shadow">
+            <div className="box-projects">
                 <div className="img-desc">
                     <img src={test} alt="test" />   
                 </div>
@@ -48,7 +48,7 @@ const Contributors = () => (
             </div>
         </Col>
         <Col xs={12} md={6} lg={4}>
-            <div className="box-projects grow-shadow">
+            <div className="box-projects">
                 <div className="img-desc">
                     <img src={test} alt="test" />   
                 </div>
