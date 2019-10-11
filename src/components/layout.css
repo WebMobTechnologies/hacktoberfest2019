@@ -1099,6 +1099,16 @@ header .navbar-end{
 .wmt_white_logo {
   padding-left: 60px;
 }
+/* schedule */
+table.event-schedule td.time{
+  width: 30%;
+}
+table.event-schedule td.desc{
+  width: 70%;
+}
+table.event-schedule td{
+  border-bottom: 1px solid #39486f;
+}
 @media screen and (max-width: 1023px) {
   .wmt_white_logo {
     padding-left: 0;
