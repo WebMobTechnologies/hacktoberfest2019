@@ -12,6 +12,7 @@ import Devlogo from '../../static/images/dev-logo.svg'
 import Dologo from '../../static/images/do-logo.svg'
 import EventMap from "../components/EventMap"
 import WMTLogo from "../components/WMTLogo"
+import ScheduleEvent from "../components/ScheduleEvent"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLinkedin,
@@ -74,6 +75,9 @@ const IndexPage = () => (
         </Col>
         <Col sm={12} className="mt-5">
           <CodeOfConduct />
+        </Col>
+        <Col sm={12} className="mt-5">
+          <ScheduleEvent />
         </Col>
       </Row>
     </Container>
@@ -159,11 +163,11 @@ const IndexPage = () => (
       </div>
     </div>
     {/* footer */}
-    <div class="footer-end">
-      <div class="footer-logos">
+    <div className="footer-end">
+      <div className="footer-logos">
       <a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer"><img src={Dologo} alt="DigitalOcean Logo" /></a>
       <p> + </p>
-      <a href="https://www.dev.to" target="_blank" rel="noopener noreferrer"><img class="dev-logo" src={Devlogo} alt="Dev Logo" /></a>
+      <a href="https://www.dev.to" target="_blank" rel="noopener noreferrer"><img className="dev-logo" src={Devlogo} alt="Dev Logo" /></a>
       </div>
       <p>© 2019 DigitalOcean, LLC. All rights reserved.</p>
       <div className="socials">
