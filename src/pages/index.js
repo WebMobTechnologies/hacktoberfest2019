@@ -8,8 +8,19 @@ import CodeOfConduct from "../components/CodeOfConduct"
 import HacktoberFest from "../components/HacktoberFest"
 import RulePrize from "../components/RulePrize"
 import EventDetail from "../components/EventDetail"
+import Devlogo from '../../static/images/dev-logo.svg'
+import Dologo from '../../static/images/do-logo.svg'
 import EventMap from "../components/EventMap"
 import WMTLogo from "../components/WMTLogo"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLinkedin,
+  faFacebookSquare,
+  faTwitter,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
+
+
 
 const redirectMap = () => {
   window.open('https://goo.gl/maps/3pV3bHpLV8owx4ER8');
@@ -37,12 +48,14 @@ const IndexPage = () => (
             }}
           >
             <h1 className="title register">
-              Hacktoberfest 2019{" "}
-              <span style={{ color: "#fff922" }}>@webmobtech</span>!
+            Hacktoberfest Open Hack Day{" "}
+              <span style={{ color: "#fff922",display: "block", }}>WebMob Technologies!</span>
             </h1>
+            <a href="http://bit.ly/2MsOmvL" target="_blank" rel="noopener noreferrer">
             <button className="register-btn button">
               Register
             </button>
+            </a>
           </div>
         </Col>
         <Col sm={6}>
@@ -50,13 +63,13 @@ const IndexPage = () => (
       </Row>
 
       <Row>
-        <Col sm={12} className="mt-5 event-detail">
+        <Col sm={12} className="mt-5 event-detail" id="detail">
           <EventDetail />
         </Col>
         <Col sm={12} className="mt-5">
           <HacktoberFest />
         </Col>
-        <Col sm={12} className="mt-5">
+        <Col sm={12} className="mt-5" id="rules">
           <RulePrize />
         </Col>
         <Col sm={12} className="mt-5">
@@ -69,10 +82,10 @@ const IndexPage = () => (
     <div className="mt-5" style={{ overflow: 'hidden' }}>
       <div style={{ paddingTop: "10rem" }}>
         <Row style={{ alignItems: "center", backgroundColor: '#152347' }}>
-          <Col sm={12} md={6}>
+          <Col sm={12} md={12} lg={6}>
             <EventMap />
           </Col>
-          <Col sm={12} md={6}>
+          <Col sm={12} md={12} lg={6}>
             <div className="wmt_white_logo">
               <WMTLogo />
               <div className="text-center mt-15">
@@ -101,6 +114,7 @@ const IndexPage = () => (
                 <a
                   className="grow-shadow social"
                   href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.webmobtech.com"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <svg
                     width="36"
@@ -117,7 +131,7 @@ const IndexPage = () => (
                   <span>Facebook</span>
                 </a>
 
-                <a className="grow-shadow social" href="https://ctt.ac/4xLO9">
+                <a className="grow-shadow social" href="https://ctt.ac/4xLO9" target="_blank" rel="noopener noreferrer">
                   <svg
                     width="36"
                     height="31"
@@ -142,6 +156,39 @@ const IndexPage = () => (
             </Col>
           </Row>
         </Container>
+      </div>
+    </div>
+    {/* footer */}
+    <div class="footer-end">
+      <div class="footer-logos">
+      <a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer"><img src={Dologo} alt="DigitalOcean Logo" /></a>
+      <p> + </p>
+      <a href="https://www.dev.to" target="_blank" rel="noopener noreferrer"><img class="dev-logo" src={Devlogo} alt="Dev Logo" /></a>
+      </div>
+      <p>© 2019 DigitalOcean, LLC. All rights reserved.</p>
+      <div className="socials">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/company/2014545" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/webmobtech" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/webmobtechnologies" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebookSquare} />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/webmobtech/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </Layout>
