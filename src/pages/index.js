@@ -51,7 +51,7 @@ const IndexPage = () => (
             Hacktoberfest Open Hack Day{" "}
               <span style={{ color: "#fff922",display: "block", }}>WebMob Technologies!</span>
             </h1>
-            <a href="http://bit.ly/2MsOmvL">
+            <a href="http://bit.ly/2MsOmvL" target="_blank" rel="noopener noreferrer">
             <button className="register-btn button">
               Register
             </button>
@@ -114,6 +114,7 @@ const IndexPage = () => (
                 <a
                   className="grow-shadow social"
                   href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.webmobtech.com"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <svg
                     width="36"
@@ -131,7 +132,7 @@ const IndexPage = () => (
                   <span>Facebook</span>
                 </a>
 
-                <a className="grow-shadow social" href="https://ctt.ac/4xLO9">
+                <a className="grow-shadow social" href="https://ctt.ac/4xLO9" target="_blank" rel="noopener noreferrer">
                   <svg
                     width="36"
                     height="31"
@@ -161,30 +162,30 @@ const IndexPage = () => (
     {/* footer */}
     <div class="footer-end">
       <div class="footer-logos">
-      <a href="https://www.digitalocean.com"><img src={Dologo} alt="DigitalOcean Logo" /></a>
+      <a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer"><img src={Dologo} alt="DigitalOcean Logo" /></a>
       <p> + </p>
-      <a href="https://www.dev.to"><img class="dev-logo" src={Devlogo} alt="Dev Logo" /></a>
+      <a href="https://www.dev.to" target="_blank" rel="noopener noreferrer"><img class="dev-logo" src={Devlogo} alt="Dev Logo" /></a>
       </div>
       <p>© 2019 DigitalOcean, LLC. All rights reserved.</p>
       <div className="socials">
         <ul>
           <li>
-            <a href="https://www.linkedin.com/company/2014545" target="_blank">
+            <a href="https://www.linkedin.com/company/2014545" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/webmobtech" target="_blank">
+            <a href="https://twitter.com/webmobtech" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/webmobtechnologies" target="_blank">
+            <a href="https://www.facebook.com/webmobtechnologies" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebookSquare} />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/webmobtech/" target="_blank">
+            <a href="https://www.instagram.com/webmobtech/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
