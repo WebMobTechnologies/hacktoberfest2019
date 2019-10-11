@@ -31,6 +31,11 @@ html {
   margin: 0 !important;
 }
 
+.break {
+  background-color: rgba(161, 30, 198, 0.2);
+  color: #fff;
+}
+
 .title.is-1,
 .title.is-2 {
   font-weight: 400;
@@ -641,6 +646,7 @@ table {
   line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
+  font-size: 18px;
 }
 
 fieldset {
@@ -955,14 +961,14 @@ main.sliderimg {
   right: 0;
   z-index: -1;
 }
-.top-bg::before{
+.top-bg::before {
   content: url(/images/bg-left.png);
   position: absolute;
   top: 0px;
   z-index: -1;
 }
 /* header */
-header{
+header {
   margin: 75px 135px 90px 135px;
   min-height: 160px;
 }
@@ -989,12 +995,12 @@ header{
   }
   .title.register {
     text-align: center;
-  }  
-  header{
+  }
+  header {
     margin: 30px;
   }
-  header a.navLink{
-    margin-left: 0!important;
+  header a.navLink {
+    margin-left: 0 !important;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -1013,8 +1019,8 @@ header{
   .text-center {
     text-align: center;
   }
-  .mt-15{
-    margin-top: 15px
+  .mt-15 {
+    margin-top: 15px;
   }
   .resp_logo {
     margin-top: 20px;
@@ -1032,13 +1038,13 @@ header{
     margin-left: 0!important;
   } */
 }
-header li{
+header li {
   list-style-type: none;
 }
-header li a:hover{
+header li a:hover {
   border-bottom: 2px solid #fff922;
 }
-header a.navLink{
+header a.navLink {
   margin-left: 1.875rem;
   font-size: 14px;
   z-index: 1;
@@ -1047,15 +1053,16 @@ header a.navLink{
   color: #fff;
   letter-spacing: 3px;
 }
-header nav,.navbar-end{
+header nav,
+.navbar-end {
   display: block;
   text-align: center;
 }
-header .navbar-end{
+header .navbar-end {
   margin-left: auto;
 }
 /* footer */
-.footer-end{
+.footer-end {
   text-align: center;
   position: relative;
   font-size: 14px;
@@ -1064,30 +1071,30 @@ header .navbar-end{
   text-transform: uppercase;
   margin-bottom: 70px;
 }
-.footer-end .socials{
+.footer-end .socials {
   margin-top: 30px;
 }
-.footer-end .socials li{
+.footer-end .socials li {
   display: inline-block;
   padding: 0 27px 0 0;
 }
-.footer-end .socials li a{
+.footer-end .socials li a {
   font-size: 24px;
   line-height: 24px;
   color: #fff;
 }
 
-.footer-logos{
+.footer-logos {
   padding: 10px 5px;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
-.footer-logos p{
+.footer-logos p {
   margin: 10px 6px;
 }
-.footer-logos img{
+.footer-logos img {
   margin-bottom: 0px;
 }
 
@@ -1099,8 +1106,24 @@ header .navbar-end{
 .wmt_white_logo {
   padding-left: 60px;
 }
+/* schedule */
+table.event-schedule td.time {
+  width: 30%;
+}
+table.event-schedule td.desc {
+  width: 70%;
+}
+table.event-schedule td {
+  border-bottom: 1px solid #39486f;
+}
 @media screen and (max-width: 1023px) {
   .wmt_white_logo {
     padding-left: 0;
   }
- }
+  table.event-schedule td.time {
+    width: 40%;
+  }
+  table.event-schedule td.desc {
+    width: 60%;
+  }
+}
