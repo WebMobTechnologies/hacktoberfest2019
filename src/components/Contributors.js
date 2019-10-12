@@ -22,7 +22,7 @@ const Contributors = () => (
             </div>
             <div className="title-social">
                 <div className="title">
-                    <h3> {item.name} </h3>
+                    <h3> {item.name}  </h3>
                 </div>
                 <div className="description">
                     <a target="_blank" href={item.twitterUrl}><FontAwesomeIcon icon={faTwitter} />{item.twitterTitle}</a>
