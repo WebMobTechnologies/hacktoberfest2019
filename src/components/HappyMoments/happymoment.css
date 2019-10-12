@@ -1,0 +1,11 @@
+.img-wrapper {
+    padding: 16px;
+    overflow: hidden !important;
+}
+.slick-dots li button:before{
+    color: #fff;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #94eaff;
+}

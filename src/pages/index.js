@@ -1,7 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Image from "../components/Image"
-import { Container, Row, Col } from "react-grid-system"
+import { graphql } from "gatsby"
+import { Col, Container, Row } from "react-grid-system"
 import SEO from "../components/SEO"
 import Line from "../components/Line"
 import CodeOfConduct from "../components/CodeOfConduct"
@@ -14,6 +15,7 @@ import EventMap from "../components/EventMap"
 import WMTLogo from "../components/WMTLogo"
 import ScheduleEvent from "../components/ScheduleEvent"
 import Contributors from "../components/Contributors"
+import HappyMoment from "../components/HappyMoments"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faLinkedin,
@@ -26,7 +28,9 @@ const redirectMap = () => {
   window.open("https://goo.gl/maps/3pV3bHpLV8owx4ER8")
 }
 
-const IndexPage = () => (
+
+const IndexPage = (props) => (
+
   <Layout>
     <SEO title="Hacktoberfest Open Hack Day - WebMob Technologies" />
     <Container>
@@ -112,7 +116,19 @@ const IndexPage = () => (
         </Row>
       </div>
     </div>
-
+    <div className="mt-5 riot">
+      <div style={{ paddingTop: "10rem" }}>
+        <Container>
+          <Row style={{ alignItems: "center" }}>
+            <Col xs={12}>
+              <Line />
+              <h2 className="title is-2 is-spaced"> Have a Riot</h2>
+              <HappyMoment data={props.data.allFile.edges}/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </div>
     <div className="mt-5 spread">
       <div style={{ paddingTop: "10rem" }}>
         <Container>
@@ -236,3 +252,24 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const query = graphql `
+query
+  query {
+allFile(
+filter: {
+extension: { regex: "/(jpg)|(png)|(webp)|(jpeg)/" }
+relativeDirectory: { eq: "moments" }
+}
+) {
+edges {
+node {
+relativePath
+childImageSharp {
+fluid(quality: 100,) {
+...GatsbyImageSharpFluid
+}
+}
+}
+}
+}}`
