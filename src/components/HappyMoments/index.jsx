@@ -22,7 +22,7 @@ export default class HappyMoment extends PureComponent {
       speed: 500,
       autoplay: true,
       autoplaySpeed: 8500,
-      dots: true,
+      dots: false,
       lazyLoad: true,
       arrows:false,
       responsive: [
@@ -33,7 +33,7 @@ export default class HappyMoment extends PureComponent {
             slidesToScroll: 1,
             centerMode: false,
             infinite: true,
-            dots: true,
+            dots: false,
           },
         },
         {
@@ -43,7 +43,7 @@ export default class HappyMoment extends PureComponent {
             slidesToScroll: 2,
             centerMode: false,
             infinite: true,
-            dots: true,
+            dots: false,
           },
         },
         {
