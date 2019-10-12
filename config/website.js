@@ -6,7 +6,7 @@ module.exports = {
     headline: 'Hacktoberfest Open Hack Day - WebMob Technologies',
     url: 'https://hacktoberfest.webmobtech.com',
     siteLanguage: 'en',
-    logo: 'static/images/Hacktoberfest_19_Events_500x500.png',
+    logo: '/images/Hacktoberfest_19_Events_500x500.png',
     ogLanguage: 'en_US',
 
     // JSONLD / Manifest
