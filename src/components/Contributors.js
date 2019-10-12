@@ -38,10 +38,7 @@ const Contributors = () => (
                 )}
 
                 {item.github ? (
-                  <a
-                    target="_blank"
-                    href={`https://twitter.com/${item.github}`}
-                  >
+                  <a target="_blank" href={`https://github.com/${item.github}`}>
                     <FontAwesomeIcon icon={faGithub} />
                     {item.github}
                   </a>
@@ -52,7 +49,7 @@ const Contributors = () => (
                 {item.linkedin ? (
                   <a
                     target="_blank"
-                    href={`https://twitter.com/${item.linkedin}`}
+                    href={`https://www.linkedin.com/in/${item.linkedin}`}
                   >
                     <FontAwesomeIcon icon={faLinkedin} />
                     {item.linkedin}
