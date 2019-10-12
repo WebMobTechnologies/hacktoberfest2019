@@ -1,6 +1,5 @@
 [
     {
-        "id": "1",
         "name": "krishna",
         "image": "/images/profile.png",
         "twitterTitle": "@krishna66933562",
@@ -11,7 +10,6 @@
         "linkedinUrl": ""
     },
     {
-        "id": "2",
         "name": "php5-webmob",
         "image": "https://avatars3.githubusercontent.com/u/56337017?s=460&v=4",
         "twitterTitle": "",
