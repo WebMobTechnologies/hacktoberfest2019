@@ -1115,6 +1115,11 @@ table.event-schedule td.desc {
 table.event-schedule td {
   border-bottom: 1px solid #39486f;
 }
+.box-wrapper {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-height: 180px !important;
+}
 .box-projects{
   position: relative;
   display: grid;
@@ -1126,7 +1131,7 @@ table.event-schedule td {
   box-shadow: 0px 50px 100px rgba(0,0,0,0.2);
   -webkit-transition: all 0.4s cubic-bezier(0.165,0.84,0.44,1);
   transition: all 0.4s cubic-bezier(0.165,0.84,0.44,1);
-  margin-bottom: 15px;
+  height: 100%;
 }
 .box-projects .title-wrap{
   display: flex;

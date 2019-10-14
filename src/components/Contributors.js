@@ -15,7 +15,7 @@ const Contributors = () => (
     <h2 className="title is-2 is-spaced">Contributors</h2>
     <Row>
       {Contributor.map(item => (
-        <Col xs={12} md={6} lg={4} key={Math.random()}>
+        <Col xs={12} md={6} lg={4} key={Math.random()} className="box-wrapper">
           <div className="box-projects">
             <div className="img-desc">
               <img src={item.image} alt="test" />
