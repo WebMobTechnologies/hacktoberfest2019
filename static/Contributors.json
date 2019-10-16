@@ -1,68 +1,57 @@
-[
-    {
-        "name": "krishna",
-        "image": "/images/profile.png",
-        "twitter": "@krishna66933562",
-        "github": "krishna-sudo",
-        "linkedin": ""
-    },
-    {
-        "name": "php5-webmob",
-        "image": "https://avatars3.githubusercontent.com/u/56337017?s=460&v=4",
-        "twitter": "",
-        "github": "php5-webmob",
-        "linkedin": ""
-    },
-    {
-        "name": "Sujal Patel",
-        "image": "https://avatars3.githubusercontent.com/u/13380046?s=460&v=4",
-        "twitter": "",
-        "github": "php1webmobtech",
-        "linkedin": ""
-    },
-    {
-        "name": "Kashyap Merai",
-        "image": "https://avatars0.githubusercontent.com/u/11503211?s=460&v=4",
-        "twitter": "@kamerk22",
-        "github": "kamerk22",
-        "linkedin": "kamerk22"
-    },
-    {
-        "name": "Bhavik Bamania",
-        "image": "https://avatars0.githubusercontent.com/u/30281971?s=460&v=4",
-        "twitter": "@bhavikbamania",
-        "github": "bhavikji",
-        "linkedin": "bhavikji"
-    },
-    
-    {
-        "name": "Vishal Lohana",
-        "image": "https://drive.google.com/open?id=0B9u5FCdw_2lbSlVGMU1hTkF2QkRrQUJOejZGelp2V3ZVTm5J",
-        "twitter": "@Vishallohana27",
-        "github": "vishallohana7",
-        "linkedin": "vishallohana"
-    },
-    
-    
-    {
-        "name": "Hitesh Dama",
-        "image": "https://lh3.googleusercontent.com/dSjCZGT5HaJVFEcAaxb7HXptdhLT7A6bzgrj5jBS6XMgAMlBpHDUPZw0oImyl9xjlWQ0z5mg3cBymaWeoeixnSPLUHGf3Q=w1600-h767-rw",
-        "twitter": "@Hiteshdama",
-        "github": "Hiteshdama",
-        "linkedin": "Hiteshdama"
-    },
-    {
-        "name": "Nishant Nair",
-        "image": "https://avatars1.githubusercontent.com/u/37836195?s=96&v=4",
-        "twitter": "",
-        "github": "nishantWM",
-        "linkedin": ""
-    },
-    {
-        "name": "Vaibhav Savaliya",
-        "image": "https://avatars1.githubusercontent.com/u/37836195?s=96&v=4",
-        "twitter": "Vaibhav Patel",
-        "github": "Vaibhav26",
-        "linkedin": ""
-    }
+[{
+		"name": "krishna",
+		"image": "/images/profile.png",
+		"twitter": "@krishna66933562",
+		"github": "krishna-sudo",
+		"linkedin": ""
+	},
+	{
+		"name": "php5-webmob",
+		"image": "https://avatars3.githubusercontent.com/u/56337017?s=460&v=4",
+		"twitter": "",
+		"github": "php5-webmob",
+		"linkedin": ""
+	},
+	{
+		"name": "Sujal Patel",
+		"image": "https://avatars3.githubusercontent.com/u/13380046?s=460&v=4",
+		"twitter": "",
+		"github": "php1webmobtech",
+		"linkedin": ""
+	},
+	{
+		"name": "Kashyap Merai",
+		"image": "https://avatars0.githubusercontent.com/u/11503211?s=460&v=4",
+		"twitter": "@kamerk22",
+		"github": "kamerk22",
+		"linkedin": "kamerk22"
+	},
+	{
+		"name": "Bhavik Bamania",
+		"image": "https://avatars0.githubusercontent.com/u/30281971?s=460&v=4",
+		"twitter": "@bhavikbamania",
+		"github": "bhavikji",
+		"linkedin": "bhavikji"
+	},
+	{
+		"name": "Nishant Nair",
+		"image": "https://avatars1.githubusercontent.com/u/37836195?s=96&v=4",
+		"twitter": "",
+		"github": "nishantWM",
+		"linkedin": ""
+	},
+	{
+		"name": "Muskan soni",
+		"image": "https://avatars3.githubusercontent.com/u/56630515?s=460&v=4",
+		"twitter": "",
+		"github": "Muskansonidhalla",
+		"linkedin": ""
+	},
+	{
+		"name": "Vaibhav Savaliya",
+		"image": "https://avatars1.githubusercontent.com/u/37836195?s=96&v=4",
+		"twitter": "Vaibhav Patel",
+		"github": "Vaibhav26",
+		"linkedin": ""
+	}
 ]
