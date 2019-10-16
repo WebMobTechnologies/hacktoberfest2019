@@ -1,51 +1,73 @@
-[
-    {
-        "name": "krishna",
-        "image": "/images/profile.png",
-        "twitter": "@krishna66933562",
-        "github": "krishna-sudo",
-        "linkedin": ""
-    },
-    {
-        "name": "php5-webmob",
-        "image": "https://avatars3.githubusercontent.com/u/56337017?s=460&v=4",
-        "twitter": "",
-        "github": "php5-webmob",
-        "linkedin": ""
-    },
-    {
-        "name": "Sujal Patel",
-        "image": "https://avatars3.githubusercontent.com/u/13380046?s=460&v=4",
-        "twitter": "",
-        "github": "php1webmobtech",
-        "linkedin": ""
-    },
-    {
-        "name": "Kashyap Merai",
-        "image": "https://avatars0.githubusercontent.com/u/11503211?s=460&v=4",
-        "twitter": "@kamerk22",
-        "github": "kamerk22",
-        "linkedin": "kamerk22"
-    },
-    {
-        "name": "Bhavik Bamania",
-        "image": "https://avatars0.githubusercontent.com/u/30281971?s=460&v=4",
-        "twitter": "@bhavikbamania",
-        "github": "bhavikji",
-        "linkedin": "bhavikji"
-    },
-    {
-        "name": "Nishant Nair",
-        "image": "https://avatars1.githubusercontent.com/u/37836195?s=96&v=4",
-        "twitter": "",
-        "github": "nishantWM",
-        "linkedin": ""
-    },
+[{
+		"name": "krishna",
+		"image": "/images/profile.png",
+		"twitter": "@krishna66933562",
+		"github": "krishna-sudo",
+		"linkedin": ""
+	},
 	{
-        "name": "Pujan Vachhani",
-        "image": "https://avatars2.githubusercontent.com/u/56622574?s=460&amp;v=4",
-        "twitter": "",
-        "github": "Pujan99",
-        "linkedin": "PujanVachhani"
-    }
+		"name": "php5-webmob",
+		"image": "https://avatars3.githubusercontent.com/u/56337017?s=460&v=4",
+		"twitter": "",
+		"github": "php5-webmob",
+		"linkedin": ""
+	},
+	{
+		"name": "Sujal Patel",
+		"image": "https://avatars3.githubusercontent.com/u/13380046?s=460&v=4",
+		"twitter": "",
+		"github": "php1webmobtech",
+		"linkedin": ""
+	},
+	{
+		"name": "Kashyap Merai",
+		"image": "https://avatars0.githubusercontent.com/u/11503211?s=460&v=4",
+		"twitter": "@kamerk22",
+		"github": "kamerk22",
+		"linkedin": "kamerk22"
+	},
+	{
+		"name": "Bhavik Bamania",
+		"image": "https://avatars0.githubusercontent.com/u/30281971?s=460&v=4",
+		"twitter": "@bhavikbamania",
+		"github": "bhavikji",
+		"linkedin": "bhavikji"
+	},
+	{
+		"name": "Nishant Nair",
+		"image": "https://avatars1.githubusercontent.com/u/37836195?s=96&v=4",
+		"twitter": "",
+		"github": "nishantWM",
+		"linkedin": ""
+	},
+
+	{
+
+		"name": "Vora Devanshi",
+		"image": "https://avatars2.githubusercontent.com/u/51154094?s=96&amp;v=4",
+		"twitter": "",
+		"github": "voradevanshi29",
+		"linkedin": ""
+	}, {
+
+		"name": "Kushal Jagad",
+		"image": "https://avatars3.githubusercontent.com/u/32031118?s=400&u=8c5b36d517a2d0fd150e21dfce12a0ea0eb2e56a&v=4",
+		"twitter": "@JagadKushal",
+		"github": "kushaljagad73",
+		"linkedin": ""
+	}, {
+		"name": "Vaibhav Savaliya",
+		"image": "https://avatars1.githubusercontent.com/u/37836195?s=96&v=4",
+		"twitter": "Vaibhav Patel",
+		"github": "Vaibhav26",
+		"linkedin": ""
+	},
+	{
+		"name": "Pujan Vachhani",
+		"image": "https://avatars2.githubusercontent.com/u/56622574?s=460&amp;v=4",
+		"twitter": "",
+		"github": "Pujan99",
+		"linkedin": "PujanVachhani"
+	}
+
 ]
