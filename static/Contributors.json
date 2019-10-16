@@ -2,7 +2,7 @@
 		"name": "krishna",
 		"image": "/images/profile.png",
 		"twitter": "@krishna66933562",
-		"github": "krishna-sudo",
+		"github": "krishna-sud",
 		"linkedin": ""
 	},
 	{
@@ -82,13 +82,35 @@
 		"twitter": "@KoradiaMudra",
 		"github": "mudra523",
 		"linkedin": "mudra523"
+	}, {
+		"name": "Sonali Bajaj",
+		"image": "https://avatars0.githubusercontent.com/u/56637692?s=460&v=4",
+		"twitter": "Sonali Bajaj",
+		"github": "Vaibhav26",
+		"linkedin": "BajajSonali"
+
 	},
- {
+	{
+		"name": "Rutvik Bhatt",
+		"image": "https://avatars1.githubusercontent.com/u/31981115?s=460&v=4",
+		"twitter": "@rutvik_bhatt",
+		"github": "rutvikbhatt9",
+		"linkedin": ""
+
+	},
+	{
+		"name": "Sanket Sakhareliya",
+		"image": "https://avatars1.githubusercontent.com/u/56621873?s=400&v=4",
+		"twitter": "",
+		"github": "sanketPatel123",
+		"linkedin": ""
+	},
+	{
 		"name": "Mansi Viramgama",
 		"image": "https://avatars3.githubusercontent.com/u/56337017?s=460&v=4",
 		"twitter": "",
 		"github": "php6-wmt",
 		"linkedin": "mansi-viramgama-92b71a13b"
-	},
+	}
 
 ]
