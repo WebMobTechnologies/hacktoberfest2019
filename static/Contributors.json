@@ -2,7 +2,7 @@
 		"name": "krishna",
 		"image": "/images/profile.png",
 		"twitter": "@krishna66933562",
-		"github": "krishna-sudo",
+		"github": "krishna-sud",
 		"linkedin": ""
 	},
 	{
@@ -88,6 +88,15 @@
 		"twitter": "Sonali Bajaj",
 		"github": "Vaibhav26",
 		"linkedin": "BajajSonali"
+
+	},
+	{
+		"name": "Rutvik Bhatt",
+		"image": "https://avatars1.githubusercontent.com/u/31981115?s=460&v=4",
+		"twitter": "@rutvik_bhatt",
+		"github": "rutvikbhatt9",
+		"linkedin": ""
+
 	}
 
 ]
