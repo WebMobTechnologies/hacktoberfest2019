@@ -1,7 +1,7 @@
 # Hacktoberfest Open Hack Day - WebMob Technologies!
 [Register](http://bit.ly/2MsOmvL)
 
-## Event details
+## Follow the Event details
 It's Hacktoberfest 2019! Let's celebrate open source over food, drinks, learning, and great company!
 
 The event will feature lectures and workshops focused on enabling participants to collaborate on Open Source projects, so that all interested people (regardless of their level of knowledge / experience) can participate.
